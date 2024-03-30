@@ -1,8 +1,31 @@
 # CloudArcade Public Repository
-A list of GitHub repository links of external plugins for CloudArcade
+A list of GitHub repository links for external plugins for CloudArcade
 
 ### Plugin Requirements
-Your plugin must meet the following requirements in order to qualify to be listed
-- GitHub repository must be public
-- Plugin must be free of use and premium features are optional
-- Plugin must not touch or modify any original files of CloudArcade. Read the documentation: [https://docs.cloudarcade.net/developer/](https://docs.cloudarcade.net/developer/)
+Your plugin must meet the following requirements in order to qualify to be listed:
+- The GitHub repository must be public.
+- The plugin must be free to use, and premium features are optional.
+- The plugin must not touch or modify any original files of CloudArcade. Read the documentation: [https://docs.cloudarcade.net/developer](https://docs.cloudarcade.net/developer)
+- You need official permission from the author of CloudArcade: [RedFoc](https://codecanyon.net/user/redfoc)
+
+### Repository File Structure
+Your plugin repository must follow this file structure:
+- All default plugin files must be placed in the root of the repository.
+- It should look like this:
+  ```
+  root
+  ├── assets
+  │   ├── css
+  │   │   └── CSS Files
+  │   ├── images
+  │   │   └── Images
+  │   └── js
+  │       └── JS Files
+  ├── controllers
+  │   └── PHP Files
+  ├── uploads
+  │   └── Plugin Uploads
+  ├── info.json // Plugin Information
+  ├── page.php // Admin Page
+  └── public.php // Public Page
+  ```
