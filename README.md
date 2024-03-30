@@ -9,10 +9,10 @@ Your plugin must meet the following requirements in order to qualify to be liste
 - You need official permission from the author of CloudArcade: [RedFoc](https://codecanyon.net/user/redfoc)
 
 ### Repository File Structure
-Your plugin repository must follow this file structure:
+Your plugin repository must follow these requirements:
 - All default plugin files must be placed in the root of the repository.
 - Plugin repo name must follow this format: **pluginname**-plugin-cloudarcade
-- It should look like this:
+- Repo structure should look like this:
   ```
   root
   ├── assets
